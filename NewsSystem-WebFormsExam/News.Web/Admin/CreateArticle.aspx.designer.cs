@@ -31,6 +31,24 @@ namespace News.Web.Admin {
         protected global::System.Web.UI.WebControls.DropDownList DropDownListArticleCategory;
         
         /// <summary>
+        /// LabelArticleContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelArticleContent;
+        
+        /// <summary>
+        /// TextBoxArticleContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxArticleContent;
+        
+        /// <summary>
         /// btnSave_Click control.
         /// </summary>
         /// <remarks>

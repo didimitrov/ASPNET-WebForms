@@ -156,6 +156,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="Admin\CreateArticle.aspx" />
+    <Content Include="Admin\EditArticles.aspx" />
     <Content Include="ArticleDetails.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -257,6 +258,13 @@
     </Compile>
     <Compile Include="Admin\CreateArticle.aspx.designer.cs">
       <DependentUpon>CreateArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditArticles.aspx.cs">
+      <DependentUpon>EditArticles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditArticles.aspx.designer.cs">
+      <DependentUpon>EditArticles.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
